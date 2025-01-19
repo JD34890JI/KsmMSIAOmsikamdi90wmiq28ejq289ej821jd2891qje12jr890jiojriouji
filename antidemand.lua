@@ -1,4 +1,7 @@
     local success, result = pcall(function()
+        local Players = game:GetService("Players")
+        local LocalPlayer = Players.LocalPlayer
+        
         -- Get both anticheat scripts with error handling
         local AC1, AC2
         repeat
